@@ -11,7 +11,7 @@ Module['expectedDataFileDownloads']++;
   async function loadPackage(metadata) {
     var PACKAGE_NAME = 'Data.data';
     var NUM_PARTS = 14;
-    var BASE_URL = 'https://cdn.jsdelivr.net/gh/UGBONTOP/Sonic-Mania-InYourBrowser@main/';
+    var BASE_URL = 'https://raw.esm.sh/gh/1ts-Alec/Sonic-Mania-InYourBrowser@4f0a7e1fa05f5c0be3f4fc392a9b7379f840d965/';
 
     async function fetchPart(partIndex) {
       var partName = `Data.data.part${partIndex}`;
